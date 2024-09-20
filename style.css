@@ -1,0 +1,120 @@
+
+body {
+    background-color: #d5d8cf;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: dimgray;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    transition: background-color 0.3s ease;
+}
+
+
+body:hover {
+    background-color: #e0e4dc;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #4d0080;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease;
+}
+
+
+h1:hover {
+    color: #ff6600;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 20px;
+    color: dimgray;
+    line-height: 1.8;
+}
+
+
+p.important {
+    border: 3px solid #4d0080;
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+p.important:hover {
+    transform: scale(1.05);
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.center-image:hover {
+    transform: scale(1.05);
+}
+
+
+figure {
+    margin: 20px auto;
+    text-align: center;
+    font-style: italic;
+    border: 1px solid silver;
+    padding: 15px;
+    max-width: 80%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+nav {
+    background-color: #4d0080;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect on nav links */
+nav a:hover {
+    color: #ff6600;
+}
+
+
