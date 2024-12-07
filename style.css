@@ -2,7 +2,7 @@
 body {
     background-color: #d5d8cf;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: dimgray;
+    color: #dbfff9;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -18,7 +18,7 @@ body:hover {
 h1 {
     font-size: 2.5em;
     margin-top: 20px;
-    color: #4d0080;
+    color: #07b09e;
     text-align: center;
     letter-spacing: 2px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
@@ -94,7 +94,7 @@ figcaption {
 }
 
 nav {
-    background-color: #4d0080;
+    background-color: #07b09e;
     padding: 15px;
     text-align: center;
     position: sticky;
